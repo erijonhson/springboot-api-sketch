@@ -15,7 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Exemplo de classe que mapeia serviços REST para clientes HTTP.
  * 
- * @see https://github.com/ericbreno/projeto-si1-backend/blob/master/src/main/java/ufcg/si/rest/QueixaRest.java
+ * @see 
+ * @see <a href=
+ *      "https://github.com/ericbreno/projeto-si1-backend/blob/master/src/main/java/ufcg/si/rest/QueixaRest.java">
+ *      Inspiração</a>
  * 
  * @author Eri Jonhson
  */
@@ -47,6 +50,7 @@ public class EntidadeRest {
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
 	public Entidade atualizarQueixa(
 			@PathVariable Long id, @RequestBody Entidade entidade) {
+		entidade.setId(id);
 		return entidadeService.atualizar(id, entidade);
 	}
 

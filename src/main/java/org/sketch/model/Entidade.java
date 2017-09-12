@@ -75,4 +75,8 @@ public class Entidade implements Serializable {
 		return true;
 	}
 
+	@Override
+	public String toString() {
+		return "Entidade(s)";
+	}
 }

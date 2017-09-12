@@ -19,7 +19,9 @@ import org.springframework.web.bind.annotation.ResponseStatus;
  * exceções de {@link FilterRegistrationBean}, ou do gênero, não serão tratadas
  * aqui.
  * 
- * @see https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc
+ * @see <a href=
+ *      "https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc">Exception
+ *      Handling in Spring</a>
  * 
  * @author Eri Jonhson
  */

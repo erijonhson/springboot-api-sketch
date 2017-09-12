@@ -9,6 +9,10 @@ public class GoneRuntimeException extends RuntimeException {
 
 	private static final long serialVersionUID = 759124636219888805L;
 
+	public GoneRuntimeException() {
+		super("Recurso indisponível, favor não solicitar novamente.");
+	}
+
 	public GoneRuntimeException(String message) {
 		super(message);
 	}

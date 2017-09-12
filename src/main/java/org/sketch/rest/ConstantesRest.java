@@ -3,7 +3,9 @@ package org.sketch.rest;
 /**
  * Constantes para as classes Rest.
  * 
- * @see https://github.com/ericbreno/projeto-si1-backend/blob/master/src/main/java/ufcg/si/rest/ConstantesRest.java
+ * @see <a href=
+ *      "https://github.com/ericbreno/projeto-si1-backend/blob/master/src/main/java/ufcg/si/rest/ConstantesRest.java">
+ *      Inspiração</a>
  * 
  * @author Eri Jonhson
  */
